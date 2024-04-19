@@ -1,0 +1,99 @@
+body{
+    font-family: 'Comic Sans ms', 'Times New Roman', Times, serif;
+    margin: 0 auto;
+    background: #9370D8;
+    padding: 5px;
+    width: 90%;
+    display: grid;
+    color: #000000;
+}
+
+.perfil{
+    margin-left: 400px;
+    margin-top: 5px;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px 0 rgb(34, 32, 32, 34);
+}
+
+h1{
+    text-align: center;
+    font-size: 25pt;
+}
+
+h2 {
+    text-align: center;
+    font-size: 16pt;
+}
+
+h3{
+    text-align: justify;
+    font-size: 12pt;
+}
+
+
+fieldset{
+    margin-bottom: 10%;
+    border: Edge 3px #FFFFF0;
+    display:flex;
+    margin: 15px auto;
+    width: 970px;
+}
+
+legend{
+    background: #000000;
+    color: #FFFFF0;
+    padding: 5px;
+    border-radius: 100px;
+    font-weight: bold;
+    margin: 15px;
+    box-shadow: 0 8px 8px 0 rgb(34,32,32,34);
+}
+
+.pie_página{
+    margin: 15px;
+    text-align: center;
+}
+
+.contenedorgrid{
+    width: 100%;
+    max-width: 1000px;
+    background: #FFFFF0;
+    margin: 40px auto;
+    display: grid;
+    color: #000000;
+    display: grid;
+}
+
+.titulo{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    padding: 7px;
+
+    background: #000000;
+    color:#FFFFF0;
+    display: flex;
+    justify-content: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+
+.subtitulo, .datos{
+    display: flex;
+    justify-content: flex;
+    align-items: flex;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.subtitulo{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.datos{
+    padding: 10px;
+    font-size: 15px;
+}
